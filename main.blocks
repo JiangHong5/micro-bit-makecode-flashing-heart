@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=")/sKK{gsY~WHRabO#mhU">interval</variable></variables><block type="device_forever" id="TGCb$-+.}$`@vVQK.bh:" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="V`KU7Z!~*@Ke/I[k|D}-"><field name="LEDS">`
+        . # # # # 
+        # . . . . 
+        . # # # . 
+        . . . . # 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="5%f-bigaSo~.7X,bfllO"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="_U7qOCUUX/XlQyH#Pz98"><field name="LEDS">`
+        # # # # . 
+        # . . . # 
+        # # # # . 
+        # . . . # 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="DC$T]9Gl}rmYIKE-xR|X"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="Q10.PNPKdCK:NY[ox6C3" x="514" y="113"><statement name="HANDLER"><block type="variables_set" id="l0B5OKa}0L)[izOmF~%H"><field name="VAR" id=")/sKK{gsY~WHRabO#mhU">interval</field><value name="VALUE"><shadow type="math_number" id="s%zf-Fa=(z_=JusexFxh"><field name="NUM">200</field></shadow></value><next><block type="device_ring" id="A}okD9kpBPA*EvzRdbTC"><value name="note"><shadow type="device_note" id="Pp@Sv%PhUiBGr1RTZ1KJ"><field name="name">262</field></shadow><block type="math_number" id=":G0ww2V-h@3UGwViWRk?"><field name="NUM">1320</field></block></value><next><block type="device_pause" id="sn[3Z~S-eU1sun2YK-U`"><value name="pause"><shadow type="timePicker" id="{V-?QkoTJs~A)@K)aw+."><field name="ms">500</field></shadow><block type="variables_get" id="oEUMIKT=V;9~O|l.G,{i"><field name="VAR" id=")/sKK{gsY~WHRabO#mhU">interval</field></block></value><next><block type="device_ring" id="x0-g+[=M?3jc2[n(t$wL"><value name="note"><shadow type="device_note" id="t[WesNq:WjQ,mel2A`@y"><field name="name">262</field></shadow><block type="math_arithmetic" id="M-E_7JiG|^|7#-*NF|(@"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number" id="zM^(,1~qHB^lq,*||~DB"><field name="NUM">262</field></shadow></value><value name="B"><shadow type="math_number" id="}6NvgfDo6X7JlQx!}E=I"><field name="NUM">4</field></shadow></value></block></value><next><block type="device_pause" id="V|4mBb@`1KRh?kL7-+;O"><value name="pause"><shadow type="timePicker" id="k#lw!AUY1llh~x*~AkWd"><field name="ms">500</field></shadow><block type="variables_get" id="q2XoS.B9sr7qV]oskS-A"><field name="VAR" id=")/sKK{gsY~WHRabO#mhU">interval</field></block></value><next><block type="device_ring" id="xC+ysg`OlG3q}ZN~o=2-"><value name="note"><shadow type="device_note" id="ku%p0+bDR:EK}IeoCKQy"><field name="name">262</field></shadow><block type="math_number" id="fTggd-yaJMb*QN(9G}(G"><field name="NUM">1320</field></block></value><next><block type="device_pause" id="k/q8S@#KrVUIb)8ogS`@"><value name="pause"><shadow type="timePicker" id="q)q9BbziughIZ7d;r|Fx"><field name="ms">500</field></shadow><block type="variables_get" id="*.c_r!eVD-CMta;Z)[jA"><field name="VAR" id=")/sKK{gsY~WHRabO#mhU">interval</field></block></value><next><block type="device_ring" id="zwNAEoiH%j%{)bFhd@GZ"><value name="note"><shadow type="device_note" id="=QuZA:/L~ezO^OF}~B~-"><field name="name">262</field></shadow><block type="math_arithmetic" id="d!I@=z;uks]`gqmwY!H`"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number" id="x/.O0(6DJ0aSK?V5lk,Y"><field name="NUM">262</field></shadow></value><value name="B"><shadow type="math_number" id="=zb*{L]*-l1,+NA=W|g,"><field name="NUM">4</field></shadow></value></block></value><next><block type="device_pause" id="ZTJjSWt#P.wcDG7b^AIq"><value name="pause"><shadow type="timePicker" id="p^xWb4t%WBcXNlEQ=IGZ"><field name="ms">500</field></shadow><block type="variables_get" id="w|Cx`:(N9TNcdwgZWz6z"><field name="VAR" id=")/sKK{gsY~WHRabO#mhU">interval</field></block></value><next><block type="music_stop_all_sounds" id="qY`tmtwN~v9CmlN@S2U["></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
