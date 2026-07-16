@@ -1,4 +1,24 @@
-let interval = 200
+input.onGesture(Gesture.Shake, function () {
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        . # # # .
+        . # # # .
+        . # # # .
+        `)
+})
+input.onGesture(Gesture.ScreenUp, function () {
+    if (false) {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . # # # .
+            . # # # .
+            . # # # .
+            `)
+    }
+})
+let interval = 175
 music.ringTone(1320)
 basic.pause(interval)
 music.ringTone(262 * 4)
